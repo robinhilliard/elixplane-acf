@@ -1,4 +1,4 @@
-# elixplane_acf
+# elixplane-acf
 
 Read, edit and write X-Plane 11 `.acf` aircraft files (and the `.afl` airfoils
 they reference) from Elixir, with **byte-exact round-trips** and a **semantic
