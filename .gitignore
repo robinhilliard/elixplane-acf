@@ -19,8 +19,17 @@ erl_crash.dump
 # Also ignore archive artifacts (built via "mix archive.build").
 *.ez
 
+# Ignore compiled BEAM files.
+*.beam
+
 # Ignore package tarball (built via "mix hex.build").
 xplane_acf-*.tar
+
+# Ignore secret config, if any.
+/config/*.secret.exs
+
+# ElixirLS editor tooling.
+/.elixir_ls/
 
 # Temporary files, for example, from tests.
 /tmp/
