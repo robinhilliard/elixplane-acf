@@ -1,0 +1,26 @@
+I
+1100 Version
+ACF
+
+PROPERTIES_BEGIN
+P acf/_name Test Plane
+P acf/_ICAO TEST
+P acf/_Gpos 4.500000000
+P _cgpt/0/_name empty craft
+P _cgpt/0/_w_now 1721.0
+P _cgpt/0/_z_ref 3.299999952
+P _cgpt/count 1
+P _engn/0/_max_thrust 1100.000000
+P _wing/0/_afl_file_R0 Clark-Y (root).afl
+PROPERTIES_END
+PANEL_2D_BEGIN
+PANEL_2D_END
+PANEL_3D_BEGIN
+#a comment line in the panel section
+GROUP RUBBISHBUTNECESSARY
+  GROUP_OPEN
+  but_battery but_battery.png
+    POS 1004.000000 714.000000
+    KEY_FRAME 0.000000 0.000000 1.000000
+END_GROUP
+PANEL_3D_END
