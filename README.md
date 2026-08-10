@@ -136,6 +136,14 @@ hd(plane.wings).airfoil_files   #=> %{root_1: "clark-y_16.afl", tip_1: "clark-y_
 hd(plane.wings).airfoils        #=> %{root_1: %XPlane.Airfoil{}, ...}
 ```
 
+## Format notes / future validation
+
+Practical ACF·AFL knowledge from Plane Maker cold-load debugging (element-array
+`_els` invariants, `_wing` vs `_part` roles, what parse success does **not**
+guarantee) lives in [`docs/FORMAT_NOTES.md`](docs/FORMAT_NOTES.md). Use that when
+extending Schema, adding validators, or diagnosing files that round-trip but
+mis-draw until a wing tab is opened.
+
 ## Generating docs
 
 ```sh
